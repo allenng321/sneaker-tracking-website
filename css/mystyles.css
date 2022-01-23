@@ -1,0 +1,45 @@
+body {
+    background-color: #2e2f5f;
+}
+
+h2 {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin-bottom: 10rem;
+}
+
+.navbar-title {
+    font-size: 35px;
+}
+
+.nav-item {
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.header {
+    font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
+    color: aliceblue;
+
+    margin-top: 10rem;
+
+    line-height: 12;
+}
+
+.sneaker-header {
+    margin-top: 3rem;
+    background-color: transparent;
+    transform: rotate(330deg);
+}
+
+.row {
+    margin-bottom: 18rem;
+}
+
+.first-image {
+    width: 400px;
+    height: auto;
+}
+
