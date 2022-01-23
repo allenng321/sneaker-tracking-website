@@ -10,6 +10,51 @@ h2 {
     margin-bottom: 10rem;
 }
 
+.purple-header {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  color: aliceblue;
+  padding: 3.5rem 0 1rem 3.5rem;
+}
+
+.purple-p {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: aliceblue;
+  padding: 1.5rem;
+  width: 380px;
+  margin-left: 30px;
+}
+
+.purple-p-second {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  color: aliceblue;
+  width: 310px;
+  margin-top: 170px;
+  margin-left: 55px;
+}
+
+.purple-p-third {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: aliceblue;
+  margin-top: 25px;
+}
+
+.purple-title-third {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    color: aliceblue;
+    margin-top: 70px;
+}
+
+.automate-video {
+  padding: 4rem 3rem 0 0;
+  width: 500px;
+  height: auto;
+}
+
 .extend-top {
   margin-top: 150px;
 }
@@ -20,6 +65,25 @@ h2 {
 
   /* Full height */
   height: 960px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+}
+
+.bg-purple {
+  /* The image used */
+  background-image: url("https://mdbcdn.b-cdn.net/img/new/slides/003.webp");
+
+  /* Full height */
+  height: auto;
+  width: 1080px;
+
+  border-radius: 5%;
+  margin-left: 200px;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -563,5 +627,13 @@ h2 {
     color: aliceblue;
     margin-bottom: 1rem;
     padding: 0;
+}
+
+.purple-fade {
+  display: inline;
+  border-radius: 5%;
+  height: auto;
+  width: 1080px;
+  margin-left: 200px;
 }
 
