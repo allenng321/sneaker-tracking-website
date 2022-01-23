@@ -1,5 +1,6 @@
 body {
     background-color: #2e2f5f;
+    height: 100%;
 }
 
 h2 {
@@ -9,8 +10,31 @@ h2 {
     margin-bottom: 10rem;
 }
 
+.extend-top {
+  margin-top: 150px;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://mdbcdn.b-cdn.net/img/new/slides/003.webp");
+
+  /* Full height */
+  height: 960px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+}
+
 .navbar-title {
     font-size: 35px;
+}
+
+.front-bg-image {
+  margin-bottom: 200px;
 }
 
 .nav-item {
@@ -537,7 +561,7 @@ h2 {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     font-size: 2.5rem;
     color: aliceblue;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     padding: 0;
 }
 
