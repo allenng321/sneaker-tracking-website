@@ -35,7 +35,7 @@ h2 {
     transform: rotate(330deg);
 }
 
-.row {
+.extend-bottom {
     margin-bottom: 18rem;
 }
 
@@ -69,6 +69,50 @@ h2 {
     margin-top: 40px;
     margin-right: 230px;
     margin-left: 100px;
+}
+
+.testimonials-text {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 200px;
+}
+
+.testimonials-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 135px;
+}
+
+.testimonials-name {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 27px;
+}
+
+.testimonials-p {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 125px;
+    margin-left: 100px;
+}
+
+.testimonials-pp {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 125px;
+    margin-left: 220px;
+}
+
+.testimonials-ppp {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 125px;
+    margin-left: 225px;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700italic,700,900italic,900);
